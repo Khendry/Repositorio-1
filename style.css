@@ -92,3 +92,14 @@ button{
     text-transform: uppercase;
     border-radius: 20px;
     cursor: pointer;}
+
+    .contenedor4{
+        background-image: cover;
+        border: solid;
+        margin: 15px 15px;
+        margin-bottom: 20px;
+        background-color: gainsboro;
+        width: 270px;
+        height: 442px;
+    
+    }
