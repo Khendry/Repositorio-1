@@ -2,7 +2,9 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: ghostwhite;   
+    background-color: ghostwhite;
+    background-size: 1423px 850px;
+    background-position: center;
 }
 
 .contenedor{
@@ -57,12 +59,12 @@ display: center;
 }
 
 .contenedor3{
-    background-color: ghostwhite;
+    background-color: white;
     box-shadow: 0 0 20px black;
     text-align: left;
     display: flex;
-    justify-content: center;
-    gap: 840px;
+    justify-content: right;
+    gap: 710px;
     align-items: center;
 }
 
@@ -83,15 +85,18 @@ nav a:hover{
 }
 
 button{
-    margin-top: 3px;
+
+    position: center;
     background-color: black;
-    padding: 5px;
+    padding: 10px;
     bottom: 0;
     color: #fff;
     font-size: 18px;
     text-transform: uppercase;
     border-radius: 20px;
-    cursor: pointer;}
+    cursor: pointer;
+}
+    
 
     .contenedor4{
         background-image: cover;
@@ -101,5 +106,11 @@ button{
         background-color: gainsboro;
         width: 270px;
         height: 442px;
-    
+        
+    }
+
+    .contenedor5{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        text-align: center;
     }
