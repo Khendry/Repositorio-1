@@ -13,3 +13,8 @@ button{
     border-radius: 20px;
     cursor: pointer;
 }
+
+banner{
+    height: 8889px;
+    width: max-content;
+}
