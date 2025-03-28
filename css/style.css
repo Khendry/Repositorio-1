@@ -2,9 +2,9 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: ghostwhite;
-    background-size: 1423px 850px;
-    background-position: center;
+    background-image: url("/IMG/Background.PNG");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .contenedor{
@@ -26,8 +26,35 @@ text-align: center;
 }
 
 .inputs{
-display: center;
+position: absolute ;
+display: grid;
+margin-left: 128px;
+margin-top: -386px;
+gap: -50px;
 
+}
+
+.inputs2{
+    position: absolute ;
+    display: grid;
+    margin-left: 128px;
+    margin-top: 40px;
+    gap: -50px;
+    }
+
+.inputs3{
+        position: absolute ;
+        display: grid;
+        margin-left: 128px;
+        margin-top: 90;
+        gap: 5px;
+        }
+
+.text{
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
 }
 
 .box{
@@ -59,13 +86,51 @@ display: center;
 }
 
 .contenedor3{
-    background-color: white;
     box-shadow: 0 0 20px black;
     text-align: left;
     display: flex;
     justify-content: right;
-    gap: 635px;
+    gap: 718px;
     align-items: center;
+    position: fixed;
+    margin: -197px;
+    margin-right: 197px;
+    width: -200px;
+    margin-top: -16%;
+}
+
+.contenedor3-2{
+    box-shadow: 0 0 20px black;
+    text-align: left;
+    display: flex;
+    justify-content: right;
+    gap: 718px;
+    align-items: center;
+    position: fixed;
+    margin: -197px;
+    margin-right: 197px;
+    width: -200px;
+    margin-top: -15%;
+}
+
+.contenedor3-3{
+    box-shadow: 0 0 20px black;
+    text-align: left;
+    display: flex;
+    justify-content: right;
+    gap: 830px;
+    align-items: center;
+    position: fixed;
+    margin: -197px;
+    margin-right: -297px;
+    width: -900px;
+    margin-top: -15%;
+}
+
+.Enviado{
+    margin-top: 15%;
+    margin-right: 1000px;
+
 }
 
 nav{
@@ -76,13 +141,13 @@ nav{
 nav a{
   text-decoration: none;
   font-size: 31px;
-  color: black;
+  color: white;
   font-weight: 900;
   position: relative;
 }
 
 nav a:hover{
-    color:navajowhite;
+    color:black;
 }
 
 button{
@@ -97,25 +162,130 @@ button{
     border-radius: 20px;
     cursor: pointer;
 }
+ 
+.servicio2{
+    background-image: cover;
+    border: solid;
+    margin-top: 15%;
+    background-color: gainsboro;
+    width: 270px;
+    height: 460px;
+    text-align: left;
+    
+}
+
+.Comprar{
+   
+    background-color: black;
+    padding: 5px;
+    bottom: 0;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: -10px;
+    margin-left: 60px;
+}
+
+.servicio3{
+    background-image: cover;
+    border: solid;
+    margin-top: -36.5%;
+    margin-left: 500px;
+    background-color: gainsboro;
+    width: 270px;
+    height: 460px;
+    text-align: left;
+    
+}
+
+.Comprar2{
+   
+    background-color: black;
+    padding: 5px;
+    bottom: 0;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: -10px;
+    margin-left: 80px;
+}
+
+.servicio4{
+    background-image: cover;
+    border: solid;
+    margin-top: -37%;
+    margin-left: 970px;
+    background-color: gainsboro;
+    width: 270px;
+    height: 460px;
+    text-align: left;
+    
+}
+
+.Comprar3{
+   
+    background-color: black;
+    padding: 5px;
+    bottom: 0;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: -10px;
+    margin-left: 80px;
+}
+.contenedor5{
+    background-color: lavender;
+    display: center;
+    text-align: center;
+    height: 350px;
+    width: 800px;
+    box-shadow: 0 0 20px black;
+    margin: auto;
+    margin-top: 30px;
+
+}
+
     
 
-    .contenedor4{
+    .Mision{
+        margin-top: 200px;
         background-image: cover;
         border: solid;
-        margin: 15px 15px;
-        margin-bottom: 20px;
+        background-color: gainsboro;
+        width: 270px;
+        height: 442px;
+        text-align:left;
+    }
+
+    .Vision{
+        background-image: cover;
+        border: solid;
+        margin: 1000px;
+        margin-top: -450px;
+        background-color: gainsboro;
+        width: 260px;
+        height: 442px;
+        text-align: left;
+    }
+
+    .Valores{
+        background-image: cover;
+        border: solid;
+        margin: 466px;
+        margin-top: -1445px;
         background-color: gainsboro;
         width: 270px;
         height: 442px;
         text-align: left;
-        
+        margin-left: 39%;
     }
 
-    .contenedor5{
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 20px;
-        text-align: center;
-    }
 
     .banner{
    position: absolute;
@@ -126,6 +296,7 @@ button{
 
     .logo{
         position: relative;
+        margin-right: -13%;
   z-index: 1;
     }
 
@@ -135,3 +306,42 @@ button{
         }
     
     }
+
+.footer{
+    width: 100%;
+    height: 130px;
+    background: blue;
+    position: absolute;
+    background-color: darkblue;
+    color: aliceblue;
+    list-style: none;
+}
+
+.footer2{
+    width: 100%;
+    height: 130px;
+    background: blue;
+    position: absolute;
+    background-color: darkblue;
+    color: aliceblue;
+    list-style: none;
+    margin-top: 35px;
+}
+
+.fa-google{
+    border: 1px solid aqua;
+    padding: 5px;
+    border-radius: 30px;
+    background-color: rgb(127, 214, 255);
+
+}
+
+.fa-instagram{
+    border: 1px solid aqua;
+    padding: 5px;
+    border-radius: 30px;
+    background-color: rgb(127, 214, 255);
+    margin-bottom: -90px;
+
+}
+

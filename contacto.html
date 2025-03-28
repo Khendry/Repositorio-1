@@ -2,10 +2,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ea38fe2ff3.js" crossorigin="anonymous"></script>
 </head> 
 <body>
     <header>
-<div class="contenedor3"> 
+<div class="contenedor3-3"> 
 
     <img src="IMG/logo.jpeg" class="logo" width="150px" height="153px">
     <img src="IMG/Untitled.png" class="banner" alt="" height="160" width="1280">
@@ -20,14 +21,28 @@
 
 </header>
 
-<center>
-    <form action="Enviado.html">
-    <input type="text" class="box" placeholder="Nombre completo" required>
-    <input type="text" class="box" placeholder="Razon del mensaje" required>
+<div class="Enviado"> 
+    <form
+  action="https://formspree.io/f/xovevkad"
+  method="POST">
+    <label>
+    
+    <input type="email" class="box" name="email" placeholder="Correo">
+  </label>
+  <label>
+
+    <textarea name="message" class="box" placeholder="Mensaje"></textarea>
+  </label>
     <input type="submit" value="Enviar" class="submit">
     </form>
-</center>
+</div>
+
 
 <link rel="stylesheet" href="css/style.css">
 </body>
+<footer class="footer2">
+  <li> <i class="fa-brands fa-google"></i> Khendrydejesus178@gmail.com</li>
+
+  <li><i class="fa-brands fa-instagram"></i> khendrydejesus178</li>
+</footer>
 </html>
