@@ -191,7 +191,7 @@ button{
 .servicio3{
     background-image: cover;
     border: solid;
-    margin-top: -36.5%;
+    margin-top: -390px;
     margin-left: 500px;
     background-color: gainsboro;
     width: 270px;
@@ -251,42 +251,6 @@ button{
 
 }
 
-    
-
-    .Mision{
-        margin-top: 200px;
-        background-image: cover;
-        border: solid;
-        background-color: cornflowerblue;
-        width: 270px;
-        height: 442px;
-        text-align:left;
-        margin-left: 3px;
-    }
-
-    .Vision{
-        background-image: cover;
-        border: solid;
-        margin: 1000px;
-        margin-top: -450px;
-        background-color: cornflowerblue;
-        width: 260px;
-        height: 442px;
-        text-align: left;
-    }
-
-    .Valores{
-        background-image: cover;
-        border: solid;
-        margin: 466px;
-        margin-top: -1445px;
-        background-color: cornflowerblue;
-        width: 270px;
-        height: 442px;
-        text-align: left;
-        margin-left: 40%;
-    }
-
 
     .banner{
    position: absolute;
@@ -316,6 +280,7 @@ button{
     background-color: darkblue;
     color: aliceblue;
     list-style: none;
+    margin-top: 180px;
 }
 
 .footer2{
@@ -384,70 +349,4 @@ nav a {
 
 nav a:hover {
     background-color: #0072cc;
-}
-
-/* Secciones Misión, Visión y Valores */
-.Mision,
-.Vision,
-.Valores {
-    background-color: #ffffff;
-    width: 300px;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    align-items: center;
-    gap: 20px;
-}
-
-.Mision img,
-.Vision img,
-.Valores img {
-    border-radius: 10px;
-    flex-shrink: 0;
-}
-
-.Mision p,
-.Vision p,
-.Valores p {
-    font-size: 1.1rem;
-}
-
-/* Valores como lista */
-.Valores {
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-.Valores p {
-    margin-left: 20px;
-}
-
-/* Footer */
-.footer {
-    background-color: #005aab;
-    color: white;
-    text-align: center;
-    padding: 20px 10px;
-    font-size: 1rem;
-}
-
-.footer li {
-    list-style: none;
-    margin: 8px ;
-}
-
-.footer i {
-    margin-right: 8px;
-    color: #fff;
-}
-
-/* Responsivo */
-@media (max-width: 768px) {
-    .Mision, .Vision, .Valores {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .Valors p {
-        margin-left: 0;
-    }
 }
