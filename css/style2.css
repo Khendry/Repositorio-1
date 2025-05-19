@@ -297,7 +297,7 @@ button{
 
     .logo{
         position: absolute;
-        margin-right: -13%;
+        margin-right: 72%;
   z-index: 1;
     }
 
@@ -360,7 +360,7 @@ body {
 }
 
 .banner {
-    width: 1240px;
+    width: 1440px;
     border-radius: 8px;
 }
 
@@ -451,3 +451,5 @@ nav a:hover {
         margin-left: 0;
     }
 }
+
+.banner

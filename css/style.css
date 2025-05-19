@@ -297,7 +297,7 @@ button{
 
     .logo{
         position: absolute;
-        margin-right: -13%;
+        margin-right: 72%;
   z-index: 1;
     }
 
@@ -316,6 +316,8 @@ button{
     background-color: darkblue;
     color: aliceblue;
     list-style: none;
+    margin-top: -100px;
+    font-size: 1rem;
 }
 
 .footer2{
@@ -326,7 +328,8 @@ button{
     background-color: darkblue;
     color: aliceblue;
     list-style: none;
-    margin-top: 35px;
+    margin-top: 180px;
+    font-size: 1rem;
 }
 
 .fa-google{
@@ -360,7 +363,7 @@ body {
 }
 
 .banner {
-    width: 1240px;
+    width: 1440px;
     border-radius: 8px;
 }
 
@@ -369,9 +372,9 @@ nav {
     margin-top: 20px;
     background-color: #005aab;
     padding: 40px;
-    border-radius: 8px;
-    gap: 15px;
-    margin-left: 700px;
+    border-radius: 15px;
+    gap: 8px;
+    margin-left: 900px;
 }
 
 nav a {
@@ -422,20 +425,13 @@ nav a:hover {
 }
 
 /* Footer */
-.footer {
-    background-color: #005aab;
-    color: white;
-    text-align: center;
-    padding: 20px 10px;
-    font-size: 1rem;
-}
 
 .footer li {
     list-style: none;
     margin: 8px ;
 }
 
-.footer i {
+.footer li {
     margin-right: 8px;
     color: #fff;
 }
